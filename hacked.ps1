@@ -1,3 +1,2 @@
-while (1){
-a = msgbox("EZZZZZZZZZ", 0, "GET FUCKED RETARD")
-}
+Add-Type -AssemblyName PresentationFramework 
+[System.Windows.MessageBox]::Show('Get hacked Kid')
