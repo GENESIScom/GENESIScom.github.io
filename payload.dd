@@ -1,3 +1,5 @@
+REM runs all scripts in this repo!
+
 DELAY 300
 GUI r
 DELAY 200
