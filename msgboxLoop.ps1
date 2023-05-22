@@ -1,3 +1,4 @@
+#message box in a loop
 [void] [System.Reflection.Assembly]::LoadWithPartialName("Microsoft.VisualBasic") 
 
 while (1) {
