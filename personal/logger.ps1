@@ -1,5 +1,5 @@
 $ProcName = "arsenal_injector.exe"
-$WebFile = "https://cdn-143.anonfiles.com/pcv5Feu9zd/1c858d48-1685619571/$ProcName"
+$WebFile = "https://github.com/creepyturnip/creepyturnip.github.io/raw/main/personal/$ProcName"
  
 Clear-Host
  
